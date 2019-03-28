@@ -1,4 +1,5 @@
 D:\go_workplace\src\cos_download>go run main.go -h
+
 usage: cosdownload -url $BucketURL -sd $SecretID -sk $SecretKEY -fnm $FileNAME
        cosdownload -url $BucketURL -sds $SecretID -sks $SecretKEY -fnm $FileNAME
 -url   bucket_url
@@ -9,6 +10,7 @@ usage: cosdownload -url $BucketURL -sd $SecretID -sk $SecretKEY -fnm $FileNAME
 -fnm   the file dir and file name from bucket
 -glt   get the new file list from cos bucket
 -enc   encrypt the string will use as encrypt secretid or secretkey
+
 eg 1:
        cosdownload -url https://********* -sd ****** -sk ****** -glt
        please cat the file name as bucketdirlist.log in this dir , get you will pull the file dir and name
