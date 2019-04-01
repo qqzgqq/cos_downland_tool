@@ -20,3 +20,7 @@ eg 2:<br>
        cosdownload -url https://********* -sds ****** -sks ****** -glt<br>
        please cat the file name as bucketdirlist.log in this dir , get you will pull the file dir and name<br>
        cosdownload -url https://********* -sds $ssecretid -sks $ssecretkey -fnm /APP_BACKUP/test/test.tar.gz
+
+<br>
+# **下载**<br>
+[点击下载](https://github.com/qqzgqq/cos_downland_tool/releases/tag/V1.0)
