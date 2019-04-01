@@ -12,6 +12,7 @@ usage: cosdownload -url $BucketURL -sd $SecretID -sk $SecretKEY -fnm $FileNAME<b
 -glt   get the new file list from cos bucket<br>
 -enc   encrypt the string will use as encrypt secretid or secretkey<br>
 
+
 eg 1:<br>
        cosdownload -url https://********* -sd ****** -sk ****** -glt<br>
        please cat the file name as bucketdirlist.log in this dir , get you will pull the file dir and name<br>
